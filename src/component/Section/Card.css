@@ -1,0 +1,28 @@
+.card-container {
+    padding: 20px;
+    margin: 10px;
+    width: 320px;
+    height: 580px;
+    border: 1px solid rgba(250, 128, 114, 0.224);
+}
+
+.card-container img {
+    width: 100%;
+    height: 250px;
+
+}
+
+.card-container button {
+    width: 100%;
+    background-color: green;
+}
+
+.card-container button:hover {
+    background-color: orangered;
+
+}
+
+.card-container button p {
+    color: whitesmoke;
+    font-weight: 900;
+}
