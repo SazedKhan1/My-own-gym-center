@@ -12,6 +12,8 @@
 .summary-container {
     border: 1px solid yellowgreen;
     margin-right: 10px;
+    position: sticky;
+    top: 0;
 
 }
 
@@ -34,6 +36,7 @@
     margin-left: 20%;
     margin-bottom: 0;
     margin-top: 20px;
+
 }
 
 .user small {
@@ -60,14 +63,14 @@
     margin-left: 10px;
 }
 
-.break-button button {
-    border: none;
-    border-radius: 50%;
-    padding: 15px;
-    margin-left: 5px;
-    background-color: coral;
+.cart-container {
+    position: sticky;
+    top: 0%;
 }
 
-.break-button button:hover {
-    background-color: limegreen;
+.total-time {
+    margin-left: 10%;
+    border: 1px solid lightslategray;
+    margin-right: 10%;
+    padding: 20px;
 }

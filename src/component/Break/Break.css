@@ -1,0 +1,13 @@
+.break-button button {
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 5px;
+    background-color: coral;
+    margin-top: 5px;
+
+}
+
+.break-button button:hover {
+    background-color: limegreen;
+}

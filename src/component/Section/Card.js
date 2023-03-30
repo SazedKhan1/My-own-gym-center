@@ -11,8 +11,9 @@ const Card = (props) => {
                 <p>{about}</p>
                 <p>Color: {eyeColor}</p>
                 <p>Time Required: {time}s</p>
+
             </div>
-            <button><p>ADD TO LIST</p></button>
+            <button onClick={() => props.addToListHandle(props.card)}><p>ADD TO LIST</p></button>
         </div>
     );
 };
